@@ -17,8 +17,8 @@
     --color-dark: #353535;
     --color-dark-variant: #555555;
     --transition: .4 ease;
-    --color-blue: #7176df;
-    --color-darkblue: #000bdb;
+    --color-blue: #dbd3d3;
+    --color-darkblue: #313134;
 }
 h1,h2,h3,h4,h5{
     line-height: 120%;
@@ -198,6 +198,41 @@ header{
 }
 /* Project Section ends */
 
+/* Site Report Section starts */
+.validation{
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+.row ::after{
+    content: "";
+    display: none;
+    clear: both;
+}
+
+#validation{
+    padding: 30px;
+    
+}
+
+.img-valid{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+/* Site Report Section ends */
+
+/* Video Demo section starts */
+iframe{
+    width: 80%;
+    height: 500px;
+    border: 1px solid #c1c1c1;
+}
+
+
+/* Video Demo section ends */
+
 /* Contact Section starts */
 #Contacts{
     padding: 70px 0;
@@ -212,7 +247,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: auto;
 }
 .email .linkedin .phone{
     display: flex;
@@ -284,7 +318,7 @@ footer .nav-links{
     }
     .header-left{
         margin: 70%;
-        width: 0 auto;
+        width: 0;
     }
     /* Start projects */
     .project-container{
