@@ -88,7 +88,7 @@ a:hover{
     transition: var(--transition);
 }
 .btn:hover{
-    background: var(--color-blacks);
+    background: var(--color-black);
     color: var(--color-white);
 }
 .btn-dark{
